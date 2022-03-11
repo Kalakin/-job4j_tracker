@@ -6,7 +6,7 @@ public class Jukebox {
      if (position <= 1) {
          System.out.println("Пусть бегут неуклюже");
      }
-       if   (position >= 2) {
+       else if   (position <= 2) {
          System.out.println("Спокойной ночи");
        }
           else {
@@ -16,7 +16,7 @@ public class Jukebox {
 
    public static void main(String[] args) {
     Jukebox kirill = new Jukebox();
-    int position = 1;
+    int position = 3;
     kirill.music(position);
    }
 }
