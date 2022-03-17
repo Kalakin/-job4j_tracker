@@ -11,13 +11,13 @@ public class Error {
        this.message = message;
    }
 
+   public Error() {
+    }
+
    public void printError() {
        System.out.println("Работает " + active);
        System.out.println("Ошибка : " + status);
        System.out.println("Сообщение об ошибке : " + message);
-    }
-
-    public Error() {
     }
 
     public static void main(String[] args) {
