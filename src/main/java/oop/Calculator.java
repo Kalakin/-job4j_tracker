@@ -16,11 +16,11 @@ public class Calculator {
     }
 
     public int divide(int w) {
-        return w / 2;
+        return w / x;
     }
 
     public int sumAllOperation(int f) {
-        return sum(10) + multiply(5) + minus(15) + divide(50);
+        return sum(f) + multiply(f) + minus(f) + divide(f);
     }
 
     public static void main(String[] args) {
