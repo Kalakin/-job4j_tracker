@@ -2,19 +2,15 @@ package oop;
 
 public class Max {
 
-    public int max(int a, int b) {
-        if (a > b) {
-            return a;
-        } else {
-            return b;
-        }
+    public static int max(int left, int right) {
+        return left > right ? left : right;
     }
 
-    public int max(int a, int b, int c) {
-        return max(a, max(b, c));
+    public static int max(int left, int right, int c) {
+        return max(left, max(right, c));
     }
 
-    public int max(int a, int b, int c, int d) {
-        return max(max(a, b), max(c, d));
+    public static int max(int left, int right, int c, int d) {
+        return max(max(left, right), max(c, d));
     }
 }
