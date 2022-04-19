@@ -27,7 +27,7 @@ public class PointTest  {
     }
 
     @Test
-    public void when686to425then6() {
+    public void when686to425then6dot403() {
         double expected = 6.403;
         Point a = new Point(6, 8, 6);
         Point b = new Point(4, 2, 5);
