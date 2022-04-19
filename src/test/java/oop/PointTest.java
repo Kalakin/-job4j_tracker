@@ -17,7 +17,7 @@ public class PointTest  {
         }
 
     @Test
-    public void when000to333then5() {
+    public void when000to333then5dot19() {
         double expected = 5.19;
         Point a = new Point(0, 0, 0);
         Point b = new Point(3, 3, 3);
