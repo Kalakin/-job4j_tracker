@@ -1,6 +1,7 @@
 package oop;
 
 public class JSONReport extends TextReport {
+    @Override
     public String generate(String name, String body) {
         return "{" + System.lineSeparator()
                 + "\t\"name\" : \"Report's name\"," + System.lineSeparator()
