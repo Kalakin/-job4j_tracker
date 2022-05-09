@@ -1,7 +1,7 @@
 package oop;
 
 public class IceCream {
-    int weight;
+    private int weight;
 
     public IceCream(int weight) {
         this.weight = weight;
