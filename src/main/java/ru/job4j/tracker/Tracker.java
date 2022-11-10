@@ -26,7 +26,7 @@ public class Tracker {
         return rsl;
     }
 
-    public Item findById;(int id) {
+    public Item findById(int id) {
         Item rsl = null;
         for (int index = 0; index < size; index++) {
             Item item = items[index];
