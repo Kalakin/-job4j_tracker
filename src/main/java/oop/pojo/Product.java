@@ -14,9 +14,11 @@ public class Product {
     @Override
     public boolean equals(Object o) {
         if (this == o) {
-            return true; }
+            return true;
+        }
         if (o == null || getClass() != o.getClass()) {
-            return false; }
+            return false;
+        }
         Product product = (Product) o;
         return count == product.count && Objects.equals(name, product.name);
     }
