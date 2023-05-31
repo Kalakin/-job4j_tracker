@@ -70,7 +70,7 @@ public class Tracker {
             items[size - 1] = null;
             size--;
         }
-        return false;
+        return rsl;
     }
 }
 
