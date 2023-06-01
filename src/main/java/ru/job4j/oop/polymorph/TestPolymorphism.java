@@ -17,8 +17,6 @@ public class TestPolymorphism {
         dog.walk();
 
         System.out.println();
-        //catWalk(cat);
-        //dogWalk(dog);
 
         System.out.println();
         System.out.println("Polymorphism begins");
@@ -35,13 +33,4 @@ public class TestPolymorphism {
     public static void eachAnimalWalk(Animal a) {
         a.walk();
     }
-
-    /*
-    public static void catWalk(Cat cat) {
-        cat.walk();
-    }
-
-    public static void dogWalk(Dog dog) {
-        dog.walk();
-    } */
 }

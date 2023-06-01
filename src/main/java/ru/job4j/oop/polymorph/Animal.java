@@ -1,5 +1,5 @@
 package ru.job4j.oop.polymorph;
-// Polymorphism
+
 public class Animal {
 
     public void eat() {
