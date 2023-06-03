@@ -17,15 +17,15 @@ public class Matches {
             } else {
                 System.out.println("Можно ввести число от 1 до 3 и не более остатка");
             }
-               if (count == 0) {
-                  System.out.println("Этот игрок победил");
-               }
+            if (count == 0) {
+                System.out.println("Этот игрок победил");
             }
+        }
 
-       if (!turn) {
-           System.out.println("Выиграл первый игрок");
-       } else {
-           System.out.println("Выиграл второй игрок");
-       }
+        if (!turn) {
+            System.out.println("Выиграл первый игрок");
+        } else {
+            System.out.println("Выиграл второй игрок");
+        }
     }
 }
