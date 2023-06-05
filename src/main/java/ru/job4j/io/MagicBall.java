@@ -4,7 +4,6 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class MagicBall {
-    @SuppressWarnings("checkstyle:EmptyStatement")
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Я великий оракул, что ты хочешь узнать?");
