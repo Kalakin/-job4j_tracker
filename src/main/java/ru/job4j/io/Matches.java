@@ -17,9 +17,6 @@ public class Matches {
             } else {
                 System.out.println("Можно ввести число от 1 до 3 и не более остатка");
             }
-            if (count == 0) {
-                System.out.println("Этот игрок победил");
-            }
         }
 
         if (!turn) {
