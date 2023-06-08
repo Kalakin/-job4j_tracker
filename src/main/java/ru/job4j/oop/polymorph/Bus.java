@@ -12,14 +12,15 @@ public class Bus implements Transport {
         System.out.println("Пассажиры");
     }
 
-    @Override
-    public void refuel(int gallons) {
-        System.out.println("Цена за топливо равна: " + gallons * 30 + "рублей.");
+    public String refuel(String gallons) {
+        String result = "Цена за топливо равна: " + gallons  + "рублей.";
+        System.out.println(result);
+        return result;
     }
 
     public static void main(String[] args) {
         Transport bus1 = new Bus();
-        bus1.refuel(10);
+        bus1.refuel(" Тысяча ");
         bus1.going();
         bus1.pasangers(6);
     }

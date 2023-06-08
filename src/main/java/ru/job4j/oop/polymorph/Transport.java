@@ -5,5 +5,7 @@ public interface Transport {
 
     void pasangers(int peoples);
 
-   void refuel(int gallons);
+   default String refuel(String gallons) {
+     return null;
+   }
 }
