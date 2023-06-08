@@ -2,8 +2,8 @@ package ru.job4j.oop.polymorph;
 
 public class College {
     public static void main(String[] args) {
-        Freshman freshman = new Student();
-        Student student = (Student) freshman;
-        Object obj = freshman;
+        Student freshman = new Freshman();
+        Freshman fresh = new Freshman();
+        Object obj = fresh;
     }
 }
