@@ -6,7 +6,5 @@ public interface Transport {
 
     void pasangers(int peoples);
 
-     int refuel(int gallons) {
-     return 0;
-   }
+     int refuel(int gallons);
 }

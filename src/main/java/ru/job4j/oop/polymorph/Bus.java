@@ -14,8 +14,8 @@ public class Bus implements Transport {
 
     @Override
     public int refuel(int gallons) {
-        int result = gallons;
-        System.out.println(result);
+        int result = 30 * gallons;
+        System.out.println(result + " рублей за бензин ");
         return result;
     }
 
