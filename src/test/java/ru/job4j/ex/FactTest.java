@@ -24,6 +24,4 @@ public class FactTest {
         int result = Fact.calc(expected);
         assertThat(result).isEqualTo("N could not be less than 0");
     }
-
-
 }
