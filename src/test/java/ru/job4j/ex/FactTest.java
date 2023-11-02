@@ -20,11 +20,8 @@ public class FactTest {
 
     @Test
     public void whenException2() {
-        IllegalArgumentException exception = assertThrows(
-                IllegalArgumentException.class,
-                () -> {
-                    Fact.calc(0);
-                });
-        assertThat(exception.getMessage()).isEqualTo("N could not be less than 0");
+        int expected = 362880;
+        int result = Fact.calc(9);
+        assertThat(result).isEqualTo(expected);
     }
 }
