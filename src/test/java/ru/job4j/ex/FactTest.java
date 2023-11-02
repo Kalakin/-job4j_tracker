@@ -18,11 +18,12 @@ public class FactTest {
         assertThat(exception.getMessage()).isEqualTo("N could not be less than 0");
     }
 
+    @Test
     public void whenException2() {
         IllegalArgumentException exception = assertThrows(
                 IllegalArgumentException.class,
                 () -> {
-                    Fact.calc(4);
+                    Fact.calc(0);
                 });
         assertThat(exception.getMessage()).isEqualTo("N could not be less than 0");
     }
