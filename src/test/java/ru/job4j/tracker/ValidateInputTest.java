@@ -30,7 +30,6 @@ class ValidateInputTest {
         assertThat(selected2).isEqualTo(10);
     }
 
-
     @Test
     void whenNegativeNumberInput() {
         Output out = new StubOutput();
