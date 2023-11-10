@@ -9,7 +9,10 @@ public class UserStore {
                 break;
             }
         }
-        throw new UserNotFoundException("Пользователь не найден");
+        if (name == null) {
+            throw new UserNotFoundException("Пользователь не найден");
+        }
+        return name;
     }
 
     public static boolean validate(User user) throws UserInvalidException {
