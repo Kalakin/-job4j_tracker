@@ -1,14 +1,9 @@
-package ru.job4j.tracker.action;
+package ru.job4j.tracker;
 
-import ru.job4j.tracker.Input;
-import ru.job4j.tracker.Item;
-import ru.job4j.tracker.Output;
-import ru.job4j.tracker.Tracker;
-
-public class FindAll implements UserAction {
+public class FindAllAction implements UserAction {
     private final Output out;
 
-    public FindAll(Output out) {
+    public FindAllAction(Output out) {
         this.out = out;
     }
 
